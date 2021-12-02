@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Git Clone instructions:
 
-git clone https://github.com/AshwinRPattath/frequentFlyerProgram.git
+git clone https://github.com/Vrinda-Bhat/Web3-Token-With-Ganache.git
 cd frequentFlyerProgram
 `npm install`
 `npm install bootstrap jquery popper.js --save`

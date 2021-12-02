@@ -1,0 +1,10 @@
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('https://d1kxiaxkq0bgmn.cloudfront.net/wp-content/uploads/2019/11/Cyber-Security-and-Resilience-Integrated-Security.jpg');
+  background-size: cover;
+  background-position: center center;
+}

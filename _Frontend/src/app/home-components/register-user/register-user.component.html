@@ -1,0 +1,71 @@
+<div class="container-fluid">
+    <div class="row no-gutter">
+        <!-- The image half -->
+        <div class="col-md-6 d-none d-md-flex bg-image"></div>
+
+
+        <!-- The content half -->
+        <div class="col-md-6 bg-light">
+            <div class="login d-flex align-items-center py-5">
+
+                <!-- Demo content-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-xl-7 mx-auto">
+                            <h3 class="display-4"> User Register</h3>
+                       <br>
+                            <form (ngSubmit)="onRegister()">
+                                <div class="form-group mb-3">
+                                    <input id="inputEmail" required name="uemail" type="text" placeholder="Email address"  class="form-control rounded-pill border-0 shadow-sm px-4" [(ngModel)] = "Uemail">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input id="inputPassword" name="upass"type="password" placeholder="Password" required [(ngModel)]="Upass" class="form-control rounded-pill border-0 shadow-sm px-4 text-primary">
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input id="inputUsername" required name="Uusername" type="text" placeholder="UserName"  class="form-control rounded-pill border-0 shadow-sm px-4" [(ngModel)] = "Uusername">
+                                </div>
+                                                              
+                                <button type="submit" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Register</button>
+                                <nav>
+                                    <a routerLink="/loginUser">Already a member?</a>
+                                </nav>
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+            </div>
+        </div><!-- End -->
+
+    </div>
+</div>
+
+
+
+
+
+
+<!--<form class="add-form p-5 w-50 " (ngSubmit)="onLogin()" >
+    <h3>User Login </h3>
+    <fieldset>
+        <div class="form-group ">
+            <label>Email </label>
+            <input required type="text"  class="form-control" name="email" id="email" [(ngModel)] = "Uemail"
+             placeholder="Your Email *" />
+        </div>
+        <div class="form-group " >
+            <label>Password</label>
+            <input type="password" class="form-control"  name="pass" id="pass" [(ngModel)]="Upass"
+             placeholder="Your Password *" />
+        </div>
+        <div class="form-group w-50">
+        
+            <input [ngStyle]="{ 'background-color' : 'grey'}" type="submit" value="Save Task"
+             class="btn btn-block"/>
+        </div>  
+        <!-- <div class="form-group">
+            <a href="#" class="btnForgetPwd">Forget Password?</a>
+        </div> 
+    </fieldset> 
+    
+</form>-->

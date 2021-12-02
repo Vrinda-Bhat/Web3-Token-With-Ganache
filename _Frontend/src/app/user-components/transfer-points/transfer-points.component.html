@@ -1,0 +1,35 @@
+<div class="container">
+
+    <div class="card text-center" style="width: 70%;">
+        <div class="card-header">
+          <br>
+        </div>
+        
+          
+    <div class="card-body">
+        <h5 class="card-title">Transfer Points</h5>
+          <br>
+        <div class="input-grou  p mb-3 w-50">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Sender Wallet Id</span>
+            </div>
+            <input type="text"  [(ngModel)]="fromWalletId" class="form-control" disabled='true' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3 w-50">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Receiver Wallet Id</span>
+            </div>
+            <input type="text"  [(ngModel)]="toWalletId" class="form-control"  aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3 w-50">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Points</span>
+            </div>
+            <input type="text"  [(ngModel)]="points" class="form-control"  aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+    
+        </div>
+        <button type="button" class="btn btn-primary btn" (click)="transferPoints()">Transfer</button>
+    </div>
+</div>
+
+</div>

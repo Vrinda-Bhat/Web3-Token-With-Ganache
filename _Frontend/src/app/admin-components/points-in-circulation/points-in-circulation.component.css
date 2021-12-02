@@ -1,0 +1,13 @@
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .masthead-subheading {
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 2rem;
+    margin-bottom: 25px;
+    font-family: "Daytona", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }

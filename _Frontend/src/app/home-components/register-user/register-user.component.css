@@ -1,0 +1,10 @@
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('https://images.idgesg.net/images/article/2021/03/hand-of-touching-network-connecting-the-human-dots-icon-in-business-picture-id953782406-100881031-large.jpg');
+  background-size: cover;
+  background-position: center center;
+}
